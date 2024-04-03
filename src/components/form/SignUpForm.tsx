@@ -32,7 +32,6 @@ const FormSchema = z
     message: 'Password do not match',
   });
 
-  //minuto 29
 const SignUpForm = () => {
   const router = useRouter()
   const form = useForm<z.infer<typeof FormSchema>>({
